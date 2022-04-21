@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="side-panel">
+        <h5 class="pb-4 mt-2">Sizes:</h5>
+        <p>
+            <span class="circle-sz">XS</span>
+            <span class="circle-sz">S</span>
+            <span class="circle-sz">M</span>
+            <span class="circle-sz">ML</span>
+        </p>
+        <p class="my-cr-2">
+            <span class="circle-sz">L</span>
+            <span class="circle-sz">XL</span>
+            <span class="circle-sz">XXL</span>
+
+        </p>
+        <br>
+        <p>Leave a star on Github if this repository was useful <span class="kamoji">(❁´◡`❁)</span></p>
+        <button type="button" class="btn btn-secondary btn-star d-block mx-auto" data-container="body" data-toggle="popover" data-placement="right" data-content="848">
+            <span><img src="img/star.svg" alt=""></span> <span class="star-txt">Star</span>
+        </button>
+    </div>
+    <div class="container-fluid mt-5">
+        <div class="row">                        
+            <div class="col-md-12">
+                <div class="d-flex justify-content-between found-products">
+                    <p class="fs-2 mt-2">16 product(s) found</p>
+                    <div>
+                        <form class="">
+                            <div class="form-row align-items-center select-container">
+                              <div class="col-auto my-1  select-item">
+                                <label class="mr-sm-2 fs-2" for="inlineFormCustomSelect">Order By</label>
+                                <select class="custom-select select-items fs-2" id="inlineFormCustomSelect">
+                                  <option selected>Select ...</option>
+                                  <option value="1">Gender</option>
+                                  <option value="2">Name</option>
+                                  <option value="3">Type</option>
+                                </select>
+                              </div>
+                              
+                            </div>
+                          </form>
+                    </div>
+                </div>
+
+                <!-- ---------------------- ROW 1 ---------------------- -->
+                <div class="d-flex justify-content-between products mt-4">
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-1-alizera.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Cat Tee Black T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">10</span><span class="value-decimal fs-2">.90</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 9 x<span class="value-sub bold">$1.21</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-2-freeblock.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Dark Thug Blue-Navy T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">29</span><span class="value-decimal fs-2">.45</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$5.89</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-3-omid.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Sphynx Tie Dye Wine T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">9</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 3 x<span class="value-sub bold">$3.00</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-4-oman.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Skuul</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">14</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$2.80</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+                    
+                </div>
+
+
+                <!-- ---------------------- ROW 2 ---------------------- -->
+                <div class="d-flex justify-content-between products mt-4">
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-ayo.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Wine Skuul T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">10</span><span class="value-decimal fs-2">.90</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 9 x<span class="value-sub bold">$1.21</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-adebayo.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Dark Thug Blue-Navy T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">29</span><span class="value-decimal fs-2">.45</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$5.89</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-clem.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Sphynx Tie Dye Wine T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">9</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 3 x<span class="value-sub bold">$3.00</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-gill.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Danger Knife Grey</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">14</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$2.80</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+                    
+                </div>
+                
+
+                <!-- ---------------------- ROW 3 ---------------------- -->
+                <div class="d-flex justify-content-between products mt-4">
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-1-alizera.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Cat Tee Black T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">10</span><span class="value-decimal fs-2">.90</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 9 x<span class="value-sub bold">$1.21</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-2-freeblock.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Dark Thug Blue-Navy T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">29</span><span class="value-decimal fs-2">.45</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$5.89</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-3-omid.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Sphynx Tie Dye Wine T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">9</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 3 x<span class="value-sub bold">$3.00</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-4-oman.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Cat Tee Black T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">14</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$2.80</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+                    
+                </div>
+
+                <!-- ---------------------- ROW 4 ---------------------- -->
+                <div class="d-flex justify-content-between products mt-4">
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-ayo.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Wine Skuul T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">10</span><span class="value-decimal fs-2">.90</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 9 x<span class="value-sub bold">$1.21</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-adebayo.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Dark Thug Blue-Navy T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">29</span><span class="value-decimal fs-2">.45</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$5.89</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-clem.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Sphynx Tie Dye Wine T-Shirt</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">9</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 3 x<span class="value-sub bold">$3.00</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+
+                    <div class="col-md-3 product px-0">
+                        <div class="img-container">
+                            <img src="img/cart-gill.jpg" class="mx-auto d-block" alt="...">
+                        </div>
+
+                        <p class="cart-title fs-3 pt-3 text-center">Danger Knife Grey</p>
+                        <p class="cart-value text-center my-0 py-0"><span class="currency mr-1 fs-1">$</span><span class="value-whole fs-7 bold">14</span><span class="value-decimal fs-2">.00</span></p>
+                        <p class="cart-alt-value text-center fs-2">or 5 x<span class="value-sub bold">$2.80</span></p>
+                        <button class="cart-btn btn btn-primary mt-4 d-block mx-auto">Add to cart</button>
+                        <p class="shipping text-center my-0">Free shipping</p>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+        $("[data-toggle=popover]").popover();
+    </script>
+</body>
+</html>
